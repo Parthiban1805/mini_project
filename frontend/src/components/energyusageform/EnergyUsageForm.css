@@ -1,0 +1,84 @@
+/* src/components/EnergyUsageForm.css */
+
+.energy-usage-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.energy-usage-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.energy-usage-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.energy-usage-form input,
+.energy-usage-form textarea,
+.energy-usage-form select,
+.energy-usage-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.energy-usage-form input:focus,
+.energy-usage-form textarea:focus,
+.energy-usage-form select:focus,
+.energy-usage-form button:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.energy-usage-form button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.energy-usage-form button:hover {
+    background-color: #0056b3;
+}
+
+.energy-usage-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.energy-usage-form input::placeholder,
+.energy-usage-form textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .energy-usage-form {
+        padding: 15px;
+    }
+
+    .energy-usage-form h2 {
+        font-size: 20px;
+    }
+
+    .energy-usage-form input,
+    .energy-usage-form select,
+    .energy-usage-form button {
+        font-size: 14px;
+    }
+}

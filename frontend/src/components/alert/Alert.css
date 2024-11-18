@@ -1,0 +1,25 @@
+.alerts {
+    padding: 20px;
+    background-color: #fff4f4;
+    border-radius: 8px;
+}
+
+.alerts h2 {
+    color: #e60000;
+}
+
+.alerts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.alerts li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.alerts li span {
+    font-size: 14px;
+    color: #555;
+}

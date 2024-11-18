@@ -1,0 +1,31 @@
+.kpi-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.kpi-form h2 {
+    color: #0073e6;
+}
+
+.kpi-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.kpi-form button {
+    padding: 10px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.kpi-form button:hover {
+    background-color: #005bb5;
+}

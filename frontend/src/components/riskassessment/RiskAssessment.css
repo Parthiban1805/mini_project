@@ -1,0 +1,21 @@
+/* src/components/RiskAssessment.css */
+.risk-assessment {
+    padding: 20px;
+    background-color: #fffae6;
+    border-radius: 8px;
+}
+
+.risk-assessment h2 {
+    color: #ff9900;
+}
+
+.risk-assessment ul {
+    list-style: none;
+    padding: 0;
+}
+
+.risk-assessment li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}

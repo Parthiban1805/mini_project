@@ -1,0 +1,45 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.navbar {
+  background-color: #004080;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.navbar ul li a:hover {
+  background-color: #0059b3;
+}
+
+.content {
+  padding: 20px;
+}
